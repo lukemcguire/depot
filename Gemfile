@@ -30,5 +30,7 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
-	gem "minitest"
+	gem 'minitest'
 end
+
+gem 'will_paginate', '~> 3.0'
